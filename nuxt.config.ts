@@ -5,4 +5,8 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+  ssr: true,
+  app: {
+    baseURL: '/', // Đường dẫn gốc
+  }
 })
