@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>vao day roi ne</p>
+    <p>vao day roi ne ban oi</p>
     aaa: {{ useGlobal().value.state }}
     <DemoComponent />
   </div>
