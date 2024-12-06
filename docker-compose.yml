@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  demo-nuxt4:
+    container_name: demo-nuxt4
+    image: demonuxt4:1.0.0
+    ports:
+      - "3000:3000"
+    environment:
+    - "TZ=Asia/Ho_Chi_Minh"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
